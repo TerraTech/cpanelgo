@@ -2,7 +2,6 @@ package main
 
 import (
 	"encoding/json"
-	"flag"
 	"fmt"
 	"log"
 	"os"
@@ -16,6 +15,8 @@ import (
 	"path/filepath"
 
 	"bytes"
+
+	"github.com/jnovack/flag"
 
 	"github.com/letsencrypt-cpanel/cpanelgo"
 	"github.com/letsencrypt-cpanel/cpanelgo/cpanel"
